@@ -202,7 +202,7 @@ let dbData = {
   settings: {
     site_title: 'CỔNG THÔNG TIN ĐIỆN TỬ VĂN PHÒNG ĐẢNG UỶ PHƯỜNG AN BÌNH',
     sub_title: 'ĐẢNG BỘ PHƯỜNG AN BÌNH - CỔNG THÔNG TIN ĐIỆN TỬ & CÔNG TÁC ĐẢNG',
-    address: 'Trụ sở Ủy Ban Nhân Dân Phường An Bình, Ấp Long Thái, Phường An Bình, Tỉnh Đồng Tháp',
+    address: 'Số 146, đường Trần Phú, khóm An Thạnh A, phường An Bình, Tỉnh Đồng Tháp',
     phone: '0273 3855 123 - Hotline: 0918 456 789',
     email: 'phongvanhoaxahoi@phuonganbinh.tiengiang.gov.vn',
     working_hours: 'Thứ 2 - Thứ 6: Sáng 07h30 - 11h30 | Chiều 13h30 - 17h00',

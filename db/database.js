@@ -172,7 +172,7 @@ const sampleContacts = [
     fullname: 'Nguyễn Văn An',
     phone: '0912345678',
     email: 'vanphongdanguy@phuonganbinh.gov.vn',
-    address: 'Trụ sở Đảng ủy - UBND Phường An Bình, Phường An Bình, Tỉnh Đồng Tháp',
+    address: 'Số 146, đường Trần Phú, khóm An Thạnh A, phường An Bình, Tỉnh Đồng Tháp',
     title: 'Hỏi về thời gian làm lại thẻ BHYT bị mất cho người cao tuổi',
     content: 'Cho tôi hỏi cha tôi 80 tuổi bị mất thẻ BHYT, làm lại cấp lại mất bao lâu?',
     status: 'Đã trả lời',

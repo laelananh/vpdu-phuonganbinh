@@ -47,7 +47,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Session configuration
 app.use(session({
-  secret: 'vpdu_phuonganbinh_secret_key_2026',
+  secret: 'vpxh_my_thien_secret_key_2026',
   resave: false,
   saveUninitialized: false,
   cookie: { maxAge: 24 * 60 * 60 * 1000 } // 1 day
@@ -327,7 +327,10 @@ app.post('/admin/posts/create', requireAuth, postUpload, async (req, res) => {
   }
 
   if (title && content) {
-    await db.createPost({ title, category_id, type, summary, content, image_url, pdf_url, pdf_name, is_featured });
+    const result = await db.createPost({ title, category_id, type, summary, content, image_url, pdf_url, pdf_name, is_featured });
+    if (result && result.error) {
+      return res.send(`<h2>Lỗi lưu vào Supabase</h2><p><strong>Lỗi:</strong> ${result.error}</p><p>Chi tiết: ${result.details || ''}</p><p>Gợi ý: ${result.hint || ''}</p><p>Vui lòng chụp lại màn hình này và gửi cho AI.</p><br><a href="/admin/posts/create">Quay lại</a>`);
+    }
     return res.redirect(`/admin/posts?msg=created`);
   }
   res.redirect('/admin/posts/create?error=missing');
@@ -460,7 +463,7 @@ app.use((req, res) => {
 // Start server
 app.listen(PORT, () => {
   console.log(`=======================================================`);
-  console.log(` CỔNG THÔNG TIN ĐIỆN TỬ VĂN PHÒNG ĐẢNG UỶ PHƯỜNG AN BÌNH`);
+  console.log(` CỔNG THÔNG TIN ĐIỆN TỬ PHÒNG VĂN HOÁ XÃ HỘI XÃ MỸ THIỆN`);
   console.log(` Server running on http://localhost:${PORT}`);
   console.log(` Admin Portal: http://localhost:${PORT}/admin/login`);
   console.log(` Admin Credentials: admin / admin123`);

@@ -188,13 +188,13 @@ let dbData = {
   services: [],
   contacts: [],
   settings: {
-    site_title: 'CỔNG THÔNG TIN ĐIỆN TỬ PHÒNG VĂN HOÁ XÃ HỘI XÃ MỸ THIỆN',
-    sub_title: 'ỦY BAN NHÂN DÂN XÃ MỸ THIỆN - BỘ PHẬN MỘT CỬA & PHÒNG VĂN HOÁ XÃ HỘI',
-    address: 'Trụ sở UBND Xã Mỹ Thiện, Tổ 10, Ấp 3, Xã Mỹ Thiện, Tỉnh Đồng Tháp',
+    site_title: 'CỔNG THÔNG TIN ĐIỆN TỬ PHƯỜNG AN BÌNH',
+    sub_title: 'ỦY BAN NHÂN DÂN PHƯỜNG AN BÌNH - BỘ PHẬN MỘT CỬA & PHÒNG VĂN HOÁ XÃ HỘI',
+    address: 'Số 146, đường Trần Phú, khóm An Thạnh A, phường An Bình , Tỉnh Đồng Tháp',
     phone: '0273 3855 123 - Hotline: 0918 456 789',
-    email: 'phongvanhoaxahoi@mythien.tiengiang.gov.vn',
+    email: 'phongvanhoaxahoi@phuonganbinh.dongthap.gov.vn',
     working_hours: 'Thứ 2 - Thứ 6: Sáng 07h30 - 11h30 | Chiều 13h30 - 17h00',
-    banner_announcement: 'Chào mừng Quý công dân đến với Cổng Dịch vụ công & Thông tin Phòng Văn hóa Xã hội Xã Mỹ Thiện.'
+    banner_announcement: 'Chào mừng Quý công dân đến với Cổng Dịch vụ công & Thông tin Phường An Bình.'
   }
 };
 

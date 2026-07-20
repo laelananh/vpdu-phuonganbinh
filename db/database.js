@@ -30,11 +30,11 @@ const sampleCategories = [
 const samplePosts = [
   {
     id: 1,
-    title: 'Phường An Bình tổ chức thăm và trao quà cho các gia đình chính sách nhân ngày Thương binh - Liệt sĩ 27/7',
+    title: 'Xã Mỹ Thiện tổ chức thăm và trao quà cho các gia đình chính sách nhân ngày Thương binh - Liệt sĩ 27/7',
     slug: 'xa-my-thien-to-chuc-tham-va-trao-qua-cho-cac-gia-dinh-chinh-sach-27-7',
     category_id: 'nguoi-co-cong',
     type: 'news',
-    summary: 'Sáng nay, đại diện UBND Phường An Bình và Văn phòng Xã hội đã đến thăm hỏi, trao 45 phần quà ý nghĩa cho Thương bệnh binh, Thân nhân liệt sĩ và Mẹ Việt Nam Anh hùng trên địa bàn xã.',
+    summary: 'Sáng nay, đại diện UBND Xã Mỹ Thiện và Văn phòng Xã hội đã đến thăm hỏi, trao 45 phần quà ý nghĩa cho Thương bệnh binh, Thân nhân liệt sĩ và Mẹ Việt Nam Anh hùng trên địa bàn xã.',
     content: `<p>Hướng tới kỷ niệm Ngày Thương binh - Liệt sĩ 27/7, Đảng ủy, Hội đồng nhân dân, Ủy ban nhân dân và Mặt trận Tổ quốc xã Mỹ Thiện đã thành lập các đoàn đến thăm hỏi, động viên và trao tặng các phần quà cho các gia đình chính sách, người có công với cách mạng.</p>
     <p>Tại các nơi đến thăm, đại diện lãnh đạo xã Mỹ Thiện đã ân cần hỏi thăm sức khỏe, đời sống của các thương bệnh binh, gia đình liệt sĩ; đồng thời bày tỏ lòng biết ơn sâu sắc trước những cống hiến, sinh của các thế hệ cha anh đi trước vì sự nghiệp giải phóng dân tộc, thống nhất đất nước.</p>
     <p>Mỗi phần quà trị giá 1.000.000 đồng cùng các nhu yếu phẩm đã được trao tận tay các hộ gia đình. Đại diện các gia đình chính sách cũng bày tỏ niềm xúc động và cảm ơn sự quan tâm chu đáo của chính quyền xã Mỹ Thiện.</p>`,
@@ -46,15 +46,15 @@ const samplePosts = [
   },
   {
     id: 2,
-    title: 'THÔNG BÁO: Lịch chi trả trợ cấp xã hội tháng 07/2026 tại Trụ sở UBND Phường An Bình',
+    title: 'THÔNG BÁO: Lịch chi trả trợ cấp xã hội tháng 07/2026 tại Trụ sở UBND Xã Mỹ Thiện',
     slug: 'thong-bao-lich-chi-tra-tro-cap-xa-hoi-thang-07-2026',
     category_id: 'an-sinh',
     type: 'announcement',
-    summary: 'Văn phòng Xã hội Phường An Bình trân trọng thông báo lịch chi trả tiền trợ cấp bảo trợ xã hội và hỗ trợ người khuyết tật, người cao tuổi tháng 07/2026.',
-    content: `<p><strong>Văn phòng Xã hội Phường An Bình xin thông báo đến toàn thể nhân dân và các đối tượng thụ hưởng chính sách bảo trợ xã hội về lịch chi trả như sau:</strong></p>
+    summary: 'Văn phòng Xã hội Xã Mỹ Thiện trân trọng thông báo lịch chi trả tiền trợ cấp bảo trợ xã hội và hỗ trợ người khuyết tật, người cao tuổi tháng 07/2026.',
+    content: `<p><strong>Văn phòng Xã hội Xã Mỹ Thiện xin thông báo đến toàn thể nhân dân và các đối tượng thụ hưởng chính sách bảo trợ xã hội về lịch chi trả như sau:</strong></p>
     <ul>
       <li><strong>Thời gian chi trả:</strong> Ngày 20/07/2026 và 21/07/2026 (Buổi sáng: 08h00 - 11h00 | Buổi chiều: 14h00 - 16h30).</li>
-      <li><strong>Địa điểm:</strong> Hội trường Bộ phận Một cửa - UBND Phường An Bình.</li>
+      <li><strong>Địa điểm:</strong> Hội trường Bộ phận Một cửa - UBND Xã Mỹ Thiện.</li>
       <li><strong>Giấy tờ mang theo:</strong> Căn cước công dân (CCCD) gắn chip bản gốc, Sổ nhận trợ cấp hoặc giấy ủy quyền hợp lệ.</li>
     </ul>`,
     image_url: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80',
@@ -70,7 +70,7 @@ const samplePosts = [
     category_id: 'bao-hiem-y-te',
     type: 'news',
     summary: 'Theo quy định mới về chính sách bảo vệ sức khỏe người cao tuổi, tất cả công dân từ 75 tuổi trở lên thường trú tại xã Mỹ Thiện được ngân sách hỗ trợ 100% tiền đóng BHYT.',
-    content: `<p>Thực hiện chính sách an sinh xã hội nâng cao chăm sóc sức khỏe người cao tuổi, UBND Phường An Bình phối hợp với Bảo hiểm Xã hội triển khai cấp thẻ BHYT miễn phí cho công dân từ 75 tuổi trở lên.</p>
+    content: `<p>Thực hiện chính sách an sinh xã hội nâng cao chăm sóc sức khỏe người cao tuổi, UBND Xã Mỹ Thiện phối hợp với Bảo hiểm Xã hội triển khai cấp thẻ BHYT miễn phí cho công dân từ 75 tuổi trở lên.</p>
     <h3>Hồ sơ chuẩn bị:</h3>
     <ol>
       <li>Tờ khai tham gia BHYT (Mẫu TK1-TS) - Cung cấp miễn phí tại bộ phận Một cửa.</li>
@@ -103,7 +103,7 @@ const samplePosts = [
     category_id: 'lao-dong',
     type: 'announcement',
     summary: 'Chương trình hỗ trợ đào tạo nghề ngắn hạn cho lao động nông thôn (May công nghiệp, Kỹ thuật điện dân dụng, Trồng cây ăn trái chất lượng cao) hoàn toàn miễn học phí.',
-    content: `<p>Văn phòng Xã hội Phường An Bình thông báo tuyển sinh các lớp học nghề ngắn hạn dành cho người lao động có hộ khẩu thường trú tại địa phương.</p>`,
+    content: `<p>Văn phòng Xã hội Xã Mỹ Thiện thông báo tuyển sinh các lớp học nghề ngắn hạn dành cho người lao động có hộ khẩu thường trú tại địa phương.</p>`,
     image_url: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80',
     is_featured: false,
     views: 310,
@@ -118,19 +118,19 @@ const sampleTenders = [
     code: 'GT-MT-2026-01',
     title: 'Gói thầu số 01: Mua sắm trang thiết bị âm thanh, ánh sáng và bàn ghế phục vụ Nhà văn hóa cộng đồng xã Mỹ Thiện',
     budget: '350.000.000 VNĐ',
-    investor: 'Ủy ban nhân dân Phường An Bình',
+    investor: 'Ủy ban nhân dân Xã Mỹ Thiện',
     status: 'Đang mời thầu',
     field: 'Mua sắm hàng hóa',
     deadline: '2026-08-25 17:00:00',
     published_at: '2026-07-12 09:00:00',
-    content: `Dự án trang bị cơ sở vật chất cho Nhà văn hóa cộng đồng Phường An Bình.`
+    content: `Dự án trang bị cơ sở vật chất cho Nhà văn hóa cộng đồng Xã Mỹ Thiện.`
   },
   {
     id: 2,
     code: 'GT-MT-2026-02',
     title: 'Gói thầu số 02: Nâng cấp, sửa chữa Hạng mục Sân chơi vận động và Dụng cụ thể thao ngoài trời cho trẻ em xã Mỹ Thiện',
     budget: '480.000.000 VNĐ',
-    investor: 'Ủy ban nhân dân Phường An Bình',
+    investor: 'Ủy ban nhân dân Xã Mỹ Thiện',
     status: 'Đang mời thầu',
     field: 'Xây lắp & Thiết bị',
     deadline: '2026-08-10 16:30:00',
@@ -148,7 +148,7 @@ const sampleServices = [
     level: 'Dịch vụ công Trực tuyến Toàn trình',
     time_limit: '15 ngày làm việc',
     fee: 'Miễn phí',
-    authority: 'Ủy ban nhân dân Phường An Bình',
+    authority: 'Ủy ban nhân dân Xã Mỹ Thiện',
     steps: ['Bước 1: Nộp hồ sơ', 'Bước 2: Thẩm định', 'Bước 3: Trả kết quả'],
     dossier: ['Tờ khai Mẫu 01', 'Bản sao CCCD']
   },
@@ -160,7 +160,7 @@ const sampleServices = [
     level: 'Dịch vụ công Trực tuyến Một phần',
     time_limit: '05 ngày làm việc',
     fee: 'Miễn phí',
-    authority: 'UBND Phường An Bình phối hợp BHXH Huyện',
+    authority: 'UBND Xã Mỹ Thiện phối hợp BHXH Huyện',
     steps: ['Bước 1: Nộp tờ khai TK1-TS', 'Bước 2: Cấp thẻ'],
     dossier: ['Tờ khai TK1-TS', 'Giấy tờ chứng minh']
   }
@@ -171,8 +171,8 @@ const sampleContacts = [
     id: 1,
     fullname: 'Nguyễn Văn An',
     phone: '0912345678',
-    email: 'vanphongdanguy@phuonganbinh.gov.vn',
-    address: 'Số 146, đường Trần Phú, khóm An Thạnh A, phường An Bình, Tỉnh Đồng Tháp',
+    email: 'nguyenvanan@gmail.com',
+    address: 'Trụ sở UBND Xã Mỹ Thiện, Tổ 10, Ấp 3, Xã Mỹ Thiện, Tỉnh Đồng Tháp',
     title: 'Hỏi về thời gian làm lại thẻ BHYT bị mất cho người cao tuổi',
     content: 'Cho tôi hỏi cha tôi 80 tuổi bị mất thẻ BHYT, làm lại cấp lại mất bao lâu?',
     status: 'Đã trả lời',
@@ -188,13 +188,13 @@ let dbData = {
   services: [],
   contacts: [],
   settings: {
-    site_title: 'CỔNG THÔNG TIN ĐIỆN TỬ VĂN PHÒNG ĐẢNG UỶ PHƯỜNG AN BÌNH',
-    sub_title: 'ĐẢNG BỘ PHƯỜNG AN BÌNH - CỔNG THÔNG TIN ĐIỆN TỬ & CÔNG TÁC ĐẢNG',
-    address: 'Số 146, đường Trần Phú, khóm An Thạnh A, phường An Bình, Tỉnh Đồng Tháp',
+    site_title: 'CỔNG THÔNG TIN ĐIỆN TỬ PHÒNG VĂN HOÁ XÃ HỘI XÃ MỸ THIỆN',
+    sub_title: 'ỦY BAN NHÂN DÂN XÃ MỸ THIỆN - BỘ PHẬN MỘT CỬA & PHÒNG VĂN HOÁ XÃ HỘI',
+    address: 'Trụ sở UBND Xã Mỹ Thiện, Tổ 10, Ấp 3, Xã Mỹ Thiện, Tỉnh Đồng Tháp',
     phone: '0273 3855 123 - Hotline: 0918 456 789',
-    email: 'phongvanhoaxahoi@phuonganbinh.tiengiang.gov.vn',
+    email: 'phongvanhoaxahoi@mythien.tiengiang.gov.vn',
     working_hours: 'Thứ 2 - Thứ 6: Sáng 07h30 - 11h30 | Chiều 13h30 - 17h00',
-    banner_announcement: 'Chào mừng Quý công dân đến với Cổng Dịch vụ công & Thông tin Văn phòng Đảng ủy Phường An Bình.'
+    banner_announcement: 'Chào mừng Quý công dân đến với Cổng Dịch vụ công & Thông tin Phòng Văn hóa Xã hội Xã Mỹ Thiện.'
   }
 };
 
@@ -239,7 +239,17 @@ function saveLocal() {
 function initLocal() {
   if (fs.existsSync(DB_FILE)) {
     try {
-      dbData = JSON.parse(fs.readFileSync(DB_FILE, 'utf8'));
+      const parsed = JSON.parse(fs.readFileSync(DB_FILE, 'utf8'));
+      dbData = { ...dbData, ...parsed };
+      
+      // Ensure arrays exist to prevent spread errors
+      dbData.posts = dbData.posts || [];
+      dbData.tenders = dbData.tenders || [];
+      dbData.services = dbData.services || [];
+      dbData.contacts = dbData.contacts || [];
+      dbData.users = dbData.users || [];
+      dbData.categories = dbData.categories || [];
+      dbData.settings = dbData.settings || {};
     } catch (e) {
       saveLocal();
     }
@@ -272,7 +282,7 @@ module.exports = {
     if (filter.is_featured !== undefined) list = list.filter(p => p.is_featured === filter.is_featured);
     if (filter.search) {
       const q = filter.search.toLowerCase();
-      list = list.filter(p => p.title.toLowerCase().includes(q) || p.summary.toLowerCase().includes(q));
+      list = list.filter(p => (p.title && p.title.toLowerCase().includes(q)) || (p.summary && p.summary.toLowerCase().includes(q)));
     }
     return list.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
   },

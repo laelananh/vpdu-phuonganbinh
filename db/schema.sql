@@ -1,5 +1,5 @@
 -- SQL SCHEMA & SEED DATA FOR SUPABASE (POSTGRESQL)
--- VĂN PHÒNG ĐẢNG UỶ PHƯỜNG AN BÌNH
+-- VĂN PHÒNG XÃ HỘI XÃ MỸ THIỆN
 
 -- 1. Create Users Table
 CREATE TABLE IF NOT EXISTS users (
@@ -29,6 +29,8 @@ CREATE TABLE IF NOT EXISTS posts (
   summary TEXT,
   content TEXT,
   image_url TEXT,
+  pdf_url TEXT,
+  pdf_name TEXT,
   is_featured BOOLEAN DEFAULT FALSE,
   views INT DEFAULT 0,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -88,5 +90,5 @@ ON CONFLICT (id) DO NOTHING;
 
 -- Default Admin User (username: admin, password: admin123)
 INSERT INTO users (id, username, password, fullname, email, role) VALUES
-(1, 'admin', '$2a$10$wT8KzE0Y8sC.sYvMhO8Q3.H3G5bO0b0Z0J0J0J0J0J0J0J0J0J0J0', 'Quản trị viên Văn phòng Đảng ủy Phường An Bình', 'admin@phuonganbinh.gov.vn', 'admin')
+(1, 'admin', '$2a$10$wT8KzE0Y8sC.sYvMhO8Q3.H3G5bO0b0Z0J0J0J0J0J0J0J0J0J0J0', 'Quản trị viên Văn phòng Xã hội', 'admin@mythien.gov.vn', 'admin')
 ON CONFLICT (username) DO NOTHING;
